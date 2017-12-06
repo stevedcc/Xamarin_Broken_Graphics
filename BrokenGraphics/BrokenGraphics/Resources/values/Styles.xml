@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <attr name="company_logo" format="reference" />
+  <attr name="main_image" format="reference"/>
+  <attr name="company_color" format="reference" />
+  <attr name="splash_background" fromat="reference" />
+  <color name="company_color_1">#7f7f7f</color>
+  <style name="CompanyTheme" parent="@android:style/Theme.Material.NoActionBar">
+    <item name="company_logo">@drawable/company_logo_1</item>
+    <item name="main_image">@drawable/main_image1</item>
+    <item name="android:colorBackground">#000000</item>
+    <item name="company_color">@color/company_color_1</item>
+  </style>
+</resources>
